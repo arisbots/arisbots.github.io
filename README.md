@@ -1,2 +1,3 @@
-# arisbots.github.io
-AI Research and Development Nonprofit
+# ArisBots
+## At Your Service
+*AI Research and Development Nonprofit*
