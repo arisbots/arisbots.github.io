@@ -4,3 +4,9 @@ body {
     text-align: center;
     font-family: Comfortaa, Helvetica, Calibri, Arial, sans-serif;
 }
+h3 {
+    font-weight: 400;
+}
+div {
+    padding: 20px;
+}
