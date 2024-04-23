@@ -4,6 +4,7 @@ body {
     font-family: Helvetica, Calibri, Arial, sans-serif;
     width: 100vw;
     height: 200vh;
+    text-align: center;
 }
 
 h1 {
@@ -19,6 +20,19 @@ h2 {
 h3 {
     font-size: 40px;
     text-align: center;
+}
+
+p1 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 2;
+}
+
+section div {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: 0px auto;
 }
 
 header {
