@@ -1,15 +1,40 @@
 body {
     margin: 0px;
     padding: 0px;
-    text-align: center;
     font-family: Comfortaa, Helvetica, Calibri, Arial, sans-serif;
 }
+
 h3 {
     font-weight: 400;
 }
+
 div.header {
     padding: 100px;
+    text-align: center;
 }
+
 section {
     padding: 20px;
+}
+
+nav {
+    padding: 20px;
+    background-color: #3A0CA3;
+}
+
+nav > * {
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #3A0CA3;
+    transition: all 0.25s ease;
+}
+
+nav a:hover {
+    color: black;
+    background-color: #4CC9F0;
+    transition: all 0.25s ease;
 }
