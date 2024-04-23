@@ -22,10 +22,22 @@ h3 {
     text-align: center;
 }
 
+a {
+    color: #4361EE
+}
+
 p1 {
     font-size: 30px;
     text-align: center;
     line-height: 2;
+}
+
+p {
+    font-size: 25px;
+}
+
+b {
+    color: #7209B7;
 }
 
 section div {
@@ -36,7 +48,7 @@ section div {
 }
 
 header {
-    padding: 100px;
+    padding: 100px 100px 10px 100px;
     text-align: center;
     z-index: 0;
 }
