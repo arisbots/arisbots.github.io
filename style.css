@@ -8,16 +8,23 @@ body {
 
 h1 {
     font-size: 80px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
 }
 
 h3 {
     font-size: 40px;
-    font-weight: 400;
+    text-align: center;
 }
 
 header {
     padding: 100px;
     text-align: center;
+    z-index: 0;
 }
 
 header > * {
@@ -26,17 +33,14 @@ header > * {
 }
 
 header.homeHeader {
-    position: relative;
-    top: 20vh;
-    z-index: 0;
-    padding-bottom: 100vh;
+    padding: 35vh 100px 65vh 100px;
     color: white;
 }
 
 div.homeHeader {
     position: absolute;
     top: 0;
-    height: inherit;
+    height: 200vh;
     width: inherit;
     background-image: linear-gradient(to bottom right, #F72585, #7209B7, #4361EE, #4CC9F0);
     z-index: -1;
@@ -45,7 +49,6 @@ div.homeHeader {
 section {
     padding: 20px;
     z-index: 0;
-    height: 100%;
     background-color: white;
 }
 
@@ -92,4 +95,9 @@ a.logo {
 a.logo:hover {
     color: white;
     background-color: #3A0CA3;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
 }
