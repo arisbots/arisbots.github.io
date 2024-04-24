@@ -43,6 +43,16 @@ p2 {
     line-height: 1.5;
 }
 
+p3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p4 {
+    font-size: 20px;
+    line-height: 1.75;
+}
+
 p, a {
     font-size: 25px;
     line-height: 1.5;
@@ -177,6 +187,20 @@ div.titleHeader {
     z-index: -1;
 }
 
+header.jobHeader {
+    padding: 15vh 100px 15vh 100px;
+    color: white;
+}
+
+div.jobHeader {
+    position: absolute;
+    top: 0;
+    height: 60vh;
+    width: inherit;
+    background-image: linear-gradient(to bottom right, #F72585, #7209B7, #4361EE, #4CC9F0);
+    z-index: -1;
+}
+
 section {
     padding: 20px;
     z-index: 0;
@@ -256,4 +280,87 @@ ul, ol {
 li {
     margin: 0px auto;
     padding: 10px;
+}
+
+div.job {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 50%;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 0px 5px 5px 5px grey;
+    transition: all 0.25s ease;
+    margin: 50px auto;
+}
+
+div.job:hover {
+    box-shadow: 0px 10px 10px 10px grey;
+    color: #3F37C9;
+    transition: all 0.25s ease;
+}
+
+div.job > * {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+}
+
+div.jobTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.job p.hiringTag {
+    background-color: #4361EE;
+    padding: 10px 15px;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+div.job p.filledTag {
+    background-color: #F72585;
+    padding: 10px 15px;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+div.filledTag:hover {
+    cursor: not-allowed;
+    box-shadow: 0px 5px 5px 5px grey;
+    color: grey;
+    transition: all 0.25s ease;
+}
+
+div.jobNav {
+    display: flex;
+    justify-content: center;
+}
+
+div.jobNav > * {
+    padding: 10px 20px;
+    color: #3F37C9;
+}
+
+div.jobNav p2 {
+    font-size: 25px;
+}
+
+hr {
+    margin: 0px auto;
+    width: 50%;
+    height: 1px;
+    background-color: #3F37C9;
+    border: 1px solid #3F37C9;
+}
+
+div.jobNav p2.selected {
+    background: #3F37C9;
+    color: white;
 }
