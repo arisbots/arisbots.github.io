@@ -32,8 +32,9 @@ p1 {
     line-height: 2;
 }
 
-p {
+p, a {
     font-size: 25px;
+    line-height: 1.5;
 }
 
 b {
@@ -45,6 +46,10 @@ section div {
     width: 80%;
     align-items: center;
     margin: 0px auto;
+}
+
+iframe {
+    margin: 50px;
 }
 
 header {
@@ -67,6 +72,44 @@ div.homeHeader {
     position: absolute;
     top: 0;
     height: 200vh;
+    width: inherit;
+    background-image: linear-gradient(to bottom right, #F72585, #7209B7, #4361EE, #4CC9F0);
+    z-index: -1;
+}
+
+div.textColumns {
+    align-items: flex-start;
+}
+
+div.leftAlign, div.rightAlign {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+div.leftAlign > *, div.rightAlign > * {
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+div.leftAlign > * {
+    text-align: right;
+}
+
+div.rightAlign > * {
+    text-align: left;
+}
+
+header.titleHeader {
+    padding: 25vh 100px 25vh 100px;
+    color: white;
+}
+
+div.titleHeader {
+    position: absolute;
+    top: 0;
+    height: 100vh;
     width: inherit;
     background-image: linear-gradient(to bottom right, #F72585, #7209B7, #4361EE, #4CC9F0);
     z-index: -1;
