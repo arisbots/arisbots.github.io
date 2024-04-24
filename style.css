@@ -353,6 +353,8 @@ div.jobNav > * {
 
 div.jobNav p2 {
     font-size: 22px;
+    background-color: white;
+    transition: all 0.25s ease;
 }
 
 hr {
@@ -367,6 +369,7 @@ hr {
 div.jobNav p2.selected {
     background: #3F37C9;
     color: white;
+    transition: all 0.25s ease;
 }
 
 div.sideImg img {
@@ -384,4 +387,10 @@ div.sideImg ul {
     width: 50%;
     margin: 0px auto;
     text-align: left;
+}
+
+div.jobNav p2:hover {
+    cursor: pointer;
+    background-color: #F72585;
+    transition: all 0.25s ease;
 }
