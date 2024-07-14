@@ -1,2 +1,2 @@
-# ArisBots - At Your Service
-AI Research and Development Nonprofit
+# ArisBots
+(Fictional) AI Research and Development Nonprofit
